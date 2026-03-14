@@ -11,7 +11,7 @@ class Settings(BaseSettings):
     postgres_user: str = "xreach"
     postgres_password: str = "xreach_dev_password"
     postgres_host: str = "localhost"
-    postgres_port: int = 5432
+    postgres_port: int = 5433
     postgres_db: str = "xreach_risk"
 
     model_path: str = "app/ml/artifacts/risk_model.joblib"
